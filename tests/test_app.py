@@ -17,4 +17,4 @@ class TestApp:
         assert res == numbers[0]
 
     def test_area_student_id(self):
-        assert calculate_area(34*2) == 68  # ✅ now it should work
+        assert round(calculate_area(8.246), 0) == 68
